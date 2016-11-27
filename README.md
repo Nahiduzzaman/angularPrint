@@ -110,9 +110,9 @@ An Angular module that allows users to selectively print elements, as well as pr
   - **Description**: Will cause printing to be landscape instead of portrait
 
   ```html
-  <button print-landscape>Doesn't matter where you put me</button>
-  <span print-landscape>I will cause any print</span>
-  <p print-landscape>to be landscape</p>
+  <button print-landscape print-btn>Doesn't matter where you put me</button>
+  <span print-landscape print-btn>I will cause any print</span>
+  <p print-landscape print-btn>to be landscape</p>
   ```
 
 #### printAvoidBreak
